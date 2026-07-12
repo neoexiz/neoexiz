@@ -19,6 +19,7 @@ env/
 
 # pre-commit
 .pre-commit-hooks/
+.ruff_cache/
 
 # Editor
 .vscode/

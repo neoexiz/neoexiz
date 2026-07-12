@@ -1,26 +1,22 @@
-# n
+# neoexiz
 
-[![Docs](https://github.com/neoexiz/n/actions/workflows/docs.yml/badge.svg)](https://github.com/neoexiz/n/actions/workflows/docs.yml)
-[![Documentation Status](https://readthedocs.org/projects/n/badge/?version=latest)](https://n.readthedocs.io/en/latest/)
+[![Docs](https://github.com/neoexiz/neoexiz/actions/workflows/docs.yml/badge.svg)](https://github.com/neoexiz/neoexiz/actions/workflows/docs.yml)
+[![Documentation Status](https://readthedocs.org/projects/neoexiz/badge/?version=latest)](https://neoexiz.readthedocs.io/zh-cn/latest/)
 
-A personal knowledge management project built with [Sphinx](https://www.sphinx-doc.org/) and hosted on [Read the Docs](https://readthedocs.org/).
+Neoexiz' documentation is built with [Sphinx](https://www.sphinx-doc.org/) and hosted on [Read the Docs](https://readthedocs.org/).
 
-## Build docs locally
-
-```bash
-pip install -r docs/requirements.txt
-cd docs && make html
-# open docs/_build/html/index.html
-```
-
-## Format code
-
-Install [pre-commit](https://pre-commit.com/) and run all formatters before committing:
+## Building the Documentation Locally
 
 ```bash
-pip install pre-commit
-pre-commit install        # register git hook
-pre-commit run --all-files  # run manually
+uv sync
+uv run -C docs make html
 ```
 
-Tools configured: **Black**, **isort**, **flake8**, and standard pre-commit hooks.
+## Online Documentation
+
+Table of Documents of different languages:
+
+| Language | Link |
+|----------|------|
+| English  | [https://neoexiz.readthedocs.io/en/latest/](https://neoexiz.readthedocs.io/en/latest/) |
+| Chinese  | [https://neoexiz.readthedocs.io/zh-cn/latest/](https://neoexiz.readthedocs.io/zh-cn/latest/) |

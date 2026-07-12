@@ -1,14 +1,17 @@
-# Introduction
+# 概览
 
-Welcome to **n** — a personal knowledge management project built with [Sphinx](https://www.sphinx-doc.org/) and hosted on [Read the Docs](https://readthedocs.org/).
+这是neoexiz文档库，存储工程师neoexiz的技术文档
 
-## Getting Started
+## 技术分类
 
-To build the documentation locally:
-
-```bash
-pip install -r docs/requirements.txt
-cd docs && make html
-```
-
-The generated HTML will be in `docs/_build/html/`.
+* 集成电路
+* 电子电路
+* 操作系统
+* 编程语言
+* 通信网络
+* 传感控制
+* 架构设计
+* 算法建模
+* 产品创意
+* 项目管理
+* 战略管理

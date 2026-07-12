@@ -1,7 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-project = "n"
+project = "neoexiz"
 author = "neoexiz"
 release = "0.1.0"
 
