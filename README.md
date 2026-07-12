@@ -1,6 +1,6 @@
 # neoexiz
 
-[![Docs](https://github.com/neoexiz/neoexiz/actions/workflows/docs.yml/badge.svg)](https://github.com/neoexiz/neoexiz/actions/workflows/docs.yml)
+[![Build Status](https://github.com/neoexiz/neoexiz/actions/workflows/build.yml/badge.svg)](https://github.com/neoexiz/neoexiz/actions/workflows/build.yml)
 [![Documentation Status](https://readthedocs.org/projects/neoexiz/badge/?version=latest)](https://neoexiz.readthedocs.io/zh-cn/latest/)
 
 Neoexiz' documentation is built with [Sphinx](https://www.sphinx-doc.org/) and hosted on [Read the Docs](https://readthedocs.org/).
